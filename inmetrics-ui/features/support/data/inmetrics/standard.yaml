@@ -1,0 +1,16 @@
+login:
+  mensagem_falha: 'ERRO! Usuário ou Senha inválidos'
+
+cadastro:
+  usuario_existente: 'Usuário já cadastrado'
+  funcionario_sucesso: 'SUCESSO! Usuário cadastrado com sucesso'
+  funcionario_edicao: 'SUCESSO! Informações atualizadas com sucesso'
+  funcionario_deletado: 'SUCESSO! Funcionário removido com sucesso'
+
+usuarios:
+  usuario_invalido:
+    login: 'inmetrequis'
+    senha: 'inmetrequis'
+  usuario_admin:
+    login: 'erwin_xavier'
+    senha: 'xpto123'

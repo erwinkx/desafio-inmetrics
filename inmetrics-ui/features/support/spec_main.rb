@@ -1,0 +1,1 @@
+$inmetrics_pages = Inmetrics::Pages.new

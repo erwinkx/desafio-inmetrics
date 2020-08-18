@@ -1,0 +1,882 @@
+[
+  {
+    "uri": "features/gherkins/inmetrics/cadastro/cadastro.feature",
+    "id": "cadastro---validar-cadastro-de-usuário-na-aplicação-de-gerenciamento-de-funcionários",
+    "keyword": "Funcionalidade",
+    "name": "Cadastro - Validar cadastro de usuário na Aplicação de Gerenciamento de Funcionários",
+    "description": "  Como um usuário do sistema\n  Quero realizar cadastro de usuário na Aplicação de Gerenciamento de Funcionários\n  Para administrar os Funcionários da InMetrics",
+    "line": 5,
+    "tags": [
+      {
+        "name": "@inmetrics",
+        "line": 3
+      },
+      {
+        "name": "@fluxo_cadastro_inmetrics",
+        "line": 4
+      }
+    ],
+    "elements": [
+      {
+        "id": "cadastro---validar-cadastro-de-usuário-na-aplicação-de-gerenciamento-de-funcionários;validar-cadastro-na-aplicação-de-gerenciamento-de-funcionários;;2",
+        "keyword": "Esquema do Cenário",
+        "name": "Validar cadastro na Aplicação de Gerenciamento de Funcionários",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_cadastro_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@cadastro_inmetrics",
+            "line": 10
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a página inicial da InMetrics",
+            "line": 12,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3710892000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar o cadastro na página da InMetrics",
+            "line": 13,
+            "rows": [
+              {
+                "cells": [
+                  "usuario",
+                  "usuario_existente"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/steps_definitions/inmetrics/cadastro/cadastro_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2082664000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que o cadastro é efetuado com 'falha' na InMetrics",
+            "line": 15,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/cadastro/cadastro_steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26318000
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Screenshot URL: http://www.inmrobo.tk/accounts/signup/",
+              "Para visualizar o print acesse a pasta de screenshots, buscando pela imagem : \n report/screenshots/validar_cadastro_na_aplicação_de_gerenciamento_de_funcionários,_exemplos_(#1).png"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1077369000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58802000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastro---validar-cadastro-de-usuário-na-aplicação-de-gerenciamento-de-funcionários;validar-cadastro-na-aplicação-de-gerenciamento-de-funcionários;;3",
+        "keyword": "Esquema do Cenário",
+        "name": "Validar cadastro na Aplicação de Gerenciamento de Funcionários",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_cadastro_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@cadastro_inmetrics",
+            "line": 10
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a página inicial da InMetrics",
+            "line": 12,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1108522000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar o cadastro na página da InMetrics",
+            "line": 13,
+            "rows": [
+              {
+                "cells": [
+                  "usuario",
+                  "usuario_novo"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/steps_definitions/inmetrics/cadastro/cadastro_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3533085000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que o cadastro é efetuado com 'sucesso' na InMetrics",
+            "line": 15,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/cadastro/cadastro_steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12736000
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Screenshot URL: http://www.inmrobo.tk/accounts/login/",
+              "Para visualizar o print acesse a pasta de screenshots, buscando pela imagem : \n report/screenshots/validar_cadastro_na_aplicação_de_gerenciamento_de_funcionários,_exemplos_(#2).png"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1037770000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60243000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/gherkins/inmetrics/funcionarios/funcionarios.feature",
+    "id": "funcionários---validar-gerenciamento-de-funcionários-atráves-da-aplicação",
+    "keyword": "Funcionalidade",
+    "name": "Funcionários - Validar gerenciamento de funcionários atráves da Aplicação",
+    "description": "  Como um usuário do sistema\n  Quero realizar a manutenção de funcionários na Aplicação de Gerenciamento de Funcionários\n  Para administrar os Funcionários da InMetrics",
+    "line": 5,
+    "tags": [
+      {
+        "name": "@inmetrics",
+        "line": 3
+      },
+      {
+        "name": "@fluxo_funcionario_inmetrics",
+        "line": 4
+      }
+    ],
+    "elements": [
+      {
+        "id": "funcionários---validar-gerenciamento-de-funcionários-atráves-da-aplicação;validar-cadastro-de-funcionário-na-aplicação-de-gerenciamento-de-funcionários",
+        "keyword": "Cenário",
+        "name": "Validar cadastro de Funcionário na Aplicação de Gerenciamento de Funcionários",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_funcionario_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@cadastro_funcionario_inmetrics",
+            "line": 10
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a página inicial da InMetrics",
+            "line": 12,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1069437000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar login na página da InMetrics",
+            "line": 13,
+            "rows": [
+              {
+                "cells": [
+                  "usuario",
+                  "usuario_admin"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/steps_definitions/inmetrics/login/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3501024000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "adicionar novo funcionário na InMetrics",
+            "line": 15,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6964697000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que o funcionário é cadastrado com sucesso na InMetrics",
+            "line": 16,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30034000
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Screenshot URL: http://www.inmrobo.tk/empregados/new_empregado",
+              "Para visualizar o print acesse a pasta de screenshots, buscando pela imagem : \n report/screenshots/validar_cadastro_de_funcionário_na_aplicação_de_gerenciamento_de_funcionários.png"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 743115000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60288000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionários---validar-gerenciamento-de-funcionários-atráves-da-aplicação;validar-alteração-de-funcionário-na-aplicação-de-gerenciamento-de-funcionários",
+        "keyword": "Cenário",
+        "name": "Validar alteração de Funcionário na Aplicação de Gerenciamento de Funcionários",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_funcionario_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@editar_funcionario_inmetrics",
+            "line": 18
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a página inicial da InMetrics",
+            "line": 20,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041791000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar login na página da InMetrics",
+            "line": 21,
+            "rows": [
+              {
+                "cells": [
+                  "usuario",
+                  "usuario_admin"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/steps_definitions/inmetrics/login/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2730792000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "atualizar as informações do funcionário",
+            "line": 23,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13664788000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que as informações foram atualizadas com sucesso na InMetrics",
+            "line": 24,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18901000
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Screenshot URL: http://www.inmrobo.tk/empregados/",
+              "Para visualizar o print acesse a pasta de screenshots, buscando pela imagem : \n report/screenshots/validar_alteração_de_funcionário_na_aplicação_de_gerenciamento_de_funcionários.png"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 724778000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64919000
+            }
+          }
+        ]
+      },
+      {
+        "id": "funcionários---validar-gerenciamento-de-funcionários-atráves-da-aplicação;validar-exclusão-de-funcionário-na-aplicação-de-gerenciamento-de-funcionários",
+        "keyword": "Cenário",
+        "name": "Validar exclusão de Funcionário na Aplicação de Gerenciamento de Funcionários",
+        "description": "",
+        "line": 27,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_funcionario_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@excluir_funcionario_inmetrics",
+            "line": 26
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a página inicial da InMetrics",
+            "line": 28,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1038948000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar login na página da InMetrics",
+            "line": 29,
+            "rows": [
+              {
+                "cells": [
+                  "usuario",
+                  "usuario_admin"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/steps_definitions/inmetrics/login/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3214511000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "excluir um funcionário da Aplicação",
+            "line": 31,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11845037000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que o funcionário foi excluído com sucesso na InMetrics",
+            "line": 32,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28687000
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Screenshot URL: http://www.inmrobo.tk/empregados/delete/1190",
+              "Para visualizar o print acesse a pasta de screenshots, buscando pela imagem : \n report/screenshots/validar_exclusão_de_funcionário_na_aplicação_de_gerenciamento_de_funcionários.png"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 742400000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63948000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/gherkins/inmetrics/login/login.feature",
+    "id": "login---validar-login-na-aplicação-de-gerenciamento-de-funcionários",
+    "keyword": "Funcionalidade",
+    "name": "Login - Validar login na Aplicação de Gerenciamento de Funcionários",
+    "description": "  Como um usuário do sistema\n  Quero realizar login na Aplicação de Gerenciamento de Funcionários\n  Para administrar os Funcionários da InMetrics",
+    "line": 5,
+    "tags": [
+      {
+        "name": "@inmetrics",
+        "line": 3
+      },
+      {
+        "name": "@fluxo_login_inmetrics",
+        "line": 4
+      }
+    ],
+    "elements": [
+      {
+        "id": "login---validar-login-na-aplicação-de-gerenciamento-de-funcionários;validar-login-na-aplicação-de-gerenciamento-de-funcionários;;2",
+        "keyword": "Esquema do Cenário",
+        "name": "Validar login na Aplicação de Gerenciamento de Funcionários",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_login_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@login_inmetrics",
+            "line": 10
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a página inicial da InMetrics",
+            "line": 12,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1032048000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar login na página da InMetrics",
+            "line": 13,
+            "rows": [
+              {
+                "cells": [
+                  "usuario",
+                  "usuario_invalido"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/steps_definitions/inmetrics/login/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1436596000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que a sessão é estabelecida com 'falha' na InMetrics",
+            "line": 15,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/login/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25036000
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Screenshot URL: http://www.inmrobo.tk/accounts/login/",
+              "Para visualizar o print acesse a pasta de screenshots, buscando pela imagem : \n report/screenshots/validar_login_na_aplicação_de_gerenciamento_de_funcionários,_exemplos_(#1).png"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1022266000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72757000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login---validar-login-na-aplicação-de-gerenciamento-de-funcionários;validar-login-na-aplicação-de-gerenciamento-de-funcionários;;3",
+        "keyword": "Esquema do Cenário",
+        "name": "Validar login na Aplicação de Gerenciamento de Funcionários",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_login_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@login_inmetrics",
+            "line": 10
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a página inicial da InMetrics",
+            "line": 12,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/funcionarios/funcionarios_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1122495000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "realizar login na página da InMetrics",
+            "line": 13,
+            "rows": [
+              {
+                "cells": [
+                  "usuario",
+                  "usuario_admin"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/steps_definitions/inmetrics/login/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3165794000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que a sessão é estabelecida com 'sucesso' na InMetrics",
+            "line": 15,
+            "match": {
+              "location": "features/steps_definitions/inmetrics/login/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26849000
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Screenshot URL: http://www.inmrobo.tk/empregados/",
+              "Para visualizar o print acesse a pasta de screenshots, buscando pela imagem : \n report/screenshots/validar_login_na_aplicação_de_gerenciamento_de_funcionários,_exemplos_(#2).png"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 791263000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51770000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
