@@ -1,0 +1,15 @@
+# Plataform
+default: -p html_report -p json_report -p chrome
+api_log: -p http_log -p api
+
+# Reports
+html_report: --format pretty --format html --out=report/features_report.html
+json_report: --format pretty --format json --out=report/result.json
+
+# Logs
+http_log: HTTP_LOG=true
+
+# Browsers
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+internet_explorer: BROWSER=internet_explorer

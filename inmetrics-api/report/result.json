@@ -1,0 +1,561 @@
+[
+  {
+    "uri": "features/gherkins/empregado.feature",
+    "id": "empregados---validar-gerenciamento-de-funcionários-atráves-da-api",
+    "keyword": "Funcionalidade",
+    "name": "Empregados - Validar gerenciamento de funcionários atráves da API",
+    "description": "  Como um usuário do sistema\n  Quero realizar a manutenção de Empregados via API\n  Para administrar os Empregados da InMetrics",
+    "line": 5,
+    "tags": [
+      {
+        "name": "@inmetrics",
+        "line": 3
+      },
+      {
+        "name": "@fluxo_empregado_inmetrics",
+        "line": 4
+      }
+    ],
+    "elements": [
+      {
+        "id": "empregados---validar-gerenciamento-de-funcionários-atráves-da-api;validar-cadastro-de-empregado-na-api-via-post",
+        "keyword": "Cenário",
+        "name": "Validar cadastro de Empregado na API via POST",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_empregado_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@cadastro_empregado_inmetrics",
+            "line": 10
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter informações de novo empregado para cadastrar via API",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 688295000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "cadastrar novo empregado na API via metódo POST",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 434271000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que o empregado foi cadastrado com sucesso via API",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4262000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          }
+        ]
+      },
+      {
+        "id": "empregados---validar-gerenciamento-de-funcionários-atráves-da-api;validar-alteração-de-empregado-na-api-via-put",
+        "keyword": "Cenário",
+        "name": "Validar alteração de Empregado na API via PUT",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_empregado_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@editar_empregado_inmetrics",
+            "line": 16
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter informações de novo empregado para cadastrar via API",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 379000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "cadastrar novo empregado na API via metódo POST",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412087000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar que o empregado foi cadastrado com sucesso via API",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "editar as informações do empregado na API via metódo PUT",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 425521000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar que o empregado foi alterado com sucesso via API",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          }
+        ]
+      },
+      {
+        "id": "empregados---validar-gerenciamento-de-funcionários-atráves-da-api;validar-exclusão-de-empregado-na-api-via-delete",
+        "keyword": "Cenário",
+        "name": "Validar exclusão de Empregado na API via DELETE",
+        "description": "",
+        "line": 25,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_empregado_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@excluir_empregado_inmetrics",
+            "line": 24
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter informações de novo empregado para cadastrar via API",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 527000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "cadastrar novo empregado na API via metódo POST",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 413363000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar que o empregado foi cadastrado com sucesso via API",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "excluir o empregado na API via metódo DELETE",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447856000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar que o empregado foi excluído com sucesso",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433391000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000
+            }
+          }
+        ]
+      },
+      {
+        "id": "empregados---validar-gerenciamento-de-funcionários-atráves-da-api;validar-listagem-de-empregado-na-api-via-get",
+        "keyword": "Cenário",
+        "name": "Validar listagem de Empregado na API via GET",
+        "description": "",
+        "line": 33,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_empregado_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@listar_empregado_inmetrics",
+            "line": 32
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter informações de novo empregado para cadastrar via API",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 482000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "cadastrar novo empregado na API via metódo POST",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 414109000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar que o empregado foi cadastrado com sucesso via API",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "listar empregado na API pelo metódo GET",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407839000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000
+            }
+          }
+        ]
+      },
+      {
+        "id": "empregados---validar-gerenciamento-de-funcionários-atráves-da-api;validar-listagem-de-todos-os-empregados-na-api-via-get",
+        "keyword": "Cenário",
+        "name": "Validar listagem de todos os Empregados na API via GET",
+        "description": "",
+        "line": 40,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inmetrics",
+            "line": 3
+          },
+          {
+            "name": "@fluxo_empregado_inmetrics",
+            "line": 4
+          },
+          {
+            "name": "@listar_todos_empregados_inmetrics",
+            "line": 39
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter informações de novo empregado para cadastrar via API",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "cadastrar novo empregado na API via metódo POST",
+            "line": 42,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 431974000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "validar que o empregado foi cadastrado com sucesso via API",
+            "line": 43,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "listar empregado na API pelo metódo GET",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 416309000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "listar todos os empregados na API pelo metódo GET",
+            "line": 45,
+            "match": {
+              "location": "features/step_definitions/empregados_steps.rb:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1394343000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

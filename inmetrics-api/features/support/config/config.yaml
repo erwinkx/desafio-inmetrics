@@ -1,0 +1,7 @@
+inmetrics: 
+  api: http://inm-api-test.herokuapp.com
+  post: /empregado/cadastrar
+  put: /empregado/alterar/
+  delete: /empregado/deletar/
+  get: /empregado/list/
+  get_all: /empregado/list_all
